@@ -20,7 +20,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://paid-file-to-link.onrender.com")
+URL = environ.get("URL", "https://paid-file-to-link-1.onrender.com/")
 
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002266075027'))
